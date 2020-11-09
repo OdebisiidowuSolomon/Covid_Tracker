@@ -1,0 +1,41 @@
+.infoBox {
+  flex: 1;
+  cursor: pointer;
+}
+
+.cases {
+  border-top: 10px solid rgb(7, 17, 211);
+}
+.recovered {
+  border-top: 10px solid greenyellow;
+}
+.deaths {
+  border-top: 10px solid red;
+}
+
+.casesColor {
+  color: rgb(7, 17, 211);
+}
+.recoveredColor {
+  color: greenyellow;
+}
+.deathsColor {
+  color: red;
+}
+
+.infoBox:not(:last-child) {
+  margin-right: 15px;
+}
+
+.infoBox__cases {
+  font-weight: 600;
+  font-size: 1.75rem;
+  margin-bottom: 0.5rem;
+}
+
+.infoBox__total {
+  color: #6c757d;
+  font-weight: 700 !important;
+  font-size: 0.8 !important;
+  margin-top: 15px !important;
+}
